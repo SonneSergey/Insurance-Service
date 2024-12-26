@@ -12,6 +12,5 @@ public class Main {
         double carCost = 1_000_000;
 
         double calculatePremium = service.calculate(age, experience, carCost);
-        System.out.println("Страховая премия: " + calculatePremium + " рублей");
     }
 }
